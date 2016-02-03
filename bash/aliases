@@ -1,0 +1,6 @@
+alias fix-skype='pactl unload-module module-role-cork'
+alias l='ls -lhaG'
+alias ..='cd ..'
+alias reload='source ~/bin/dotfiles/bash/aliases'
+alias top10='history | awk '"'"'{a[$2]++}END{for(i in a){print a[i] " " i}}'"'"' | sort -rn | head'
+alias open='xdg-open .'
